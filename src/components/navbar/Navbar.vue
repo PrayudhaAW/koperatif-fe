@@ -1,10 +1,9 @@
 <template>
-  <nav class="bg-white on-navbar w-screen">
-        <div class="flex justify-between">
-            <div class="flex items-center h-full px-8">
+  <nav class="bg-white w-screen">
+        <div class="flex justify-between h-20">
+            <div class="flex items-center min-h-full px-8">
                 <img class="h-10" src="../../assets/logo.png">
             </div>
-            <div class="py-6 pr-5">
                 <div class="flex items-center">
                     <div class="px-3">
                         <span class="text-sm font-semibold	">Puji Astuti</span>
@@ -27,7 +26,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
         </div>
   </nav>
 </template>
@@ -49,10 +47,6 @@ export default {
 </script>
 
 <style>
-.on-navbar {
-    height: 6rem;
-}
-
 .profile ul li{
        float: left;
     position: relative;

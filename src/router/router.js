@@ -2,6 +2,8 @@ import {createRouter, createWebHistory} from "vue-router"
 import Login from '../components/BackgroundLogin.vue'
 import Home from '../views/Home.vue'
 import Keanggotaan from '../views/Keanggotaan.vue'
+import FormKeanggotaan from '../views/keanggotaan/Form.vue'
+import DetailKeanggotaan from '../views/keanggotaan/Detail.vue'
 import Pinjaman from '../views/Pinjaman.vue'
 import Laporan from '../views/Laporan.vue'
 import Transaksi from '../views/Transaksi.vue'
@@ -11,6 +13,8 @@ import Transaksi from '../views/Transaksi.vue'
 const routes = [
     { path: '/home', component: Home },
     { path: '/keanggotaan', component: Keanggotaan },
+    { path: '/keanggotaan/form', component: FormKeanggotaan },
+    { path: '/keanggotaan/detail', component: DetailKeanggotaan },
     { path: '/pinjaman', component: Pinjaman },
     { path: '/laporan', component: Laporan },
     { path: '/transaksi', component: Transaksi },

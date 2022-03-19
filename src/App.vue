@@ -28,8 +28,9 @@ export default {
 :root {
   --main-blue: #2897D6;
   --black-medium: #626262;
-  --font-black-medium: #1C1C1C;
+  --font-black-strong: #1C1C1C;
   --success: #31BF6D;
+  --black-light: #F9F9F9;
 }
 
 html * {
@@ -40,8 +41,16 @@ html * {
     background-color: var(--main-blue);
 }
 
+.bg-black-light {
+    background-color: var(--black-light);
+}
+
 .f-black-medium {
-    color: var(--font-black-medium);
+    color: var(--font-black-strong);
+}
+
+.f-black-semimedium {
+    color: var(--black-medium);
 }
 
 .f-success {
@@ -62,6 +71,10 @@ html * {
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
+}
+
+.outline-main-blue {
+    outline-color: var(--main-blue);
 }
 
 </style>
